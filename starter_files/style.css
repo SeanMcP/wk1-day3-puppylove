@@ -13,7 +13,7 @@ colors:
     dark blue - #046c97
 */
 body {
-  background-color: #dddddd;
+  background-image: url("img/bg.jpg");
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6em;
@@ -23,6 +23,7 @@ body > div {
   border: 2px solid #ffd24a;
   border-radius: 2px;
   margin: 10px 100px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 h2, h3, h4 {
   color: #1fabe5;
@@ -33,12 +34,17 @@ a {
 a:hover {
   color: #046c97;
 }
+
+/* Header */
 #site_header {
   background-color: #ff8523;
-  padding: 20px;
+  padding: 20px 20px 40px;
 }
 #logo {
   margin-bottom: 20px;
+}
+#logo img {
+  padding: 0 0 20px;
 }
 nav.main_navigation {
 }
@@ -48,19 +54,24 @@ nav.main_navigation a {
   border: 1px solid white;
   padding: 10px 30px;
   border-radius: 4px;
+  font-weight: bold;
 }
 #page_content {
-  padding: 10px;
+  padding: 0 10px 10px;
 }
 #page_content section {
   border-bottom: 4px solid #eeeeee;
+  padding: 10px 0 30px;
+  margin: 0 0 10px;
 }
 #page_content ul {
   font-weight: bold;
 }
+
+/* Wrestling the table into submission */
 table {
   border-collapse: collapse;
-  margin: 0 0 20px;
+  width: 100%;
 }
 table, td {
   border: 1px solid #1fabe5;
@@ -79,9 +90,9 @@ table img {
 
 /* Input form at the bottom of the page */
 form {
-  background-color: lightgray;
+  background-color: #eee;
   border-radius: 4px;
-  padding: 10px;
+  padding: 20px;
 }
 div.name {
   background-color: #ff8523;
@@ -95,13 +106,14 @@ div.name input {
   padding: 8px;
   margin-right: 10px;
   width: 25%;
-  border: 1px solid #ffd24a;
 }
-select {
+div.city_container {
+  padding-bottom: 20px;
 }
 #bio {
   border: 1px solid #1fabe5;
   padding: 10px;
+  margin: 10px 0 20px;
   display: block;
   width: 96%; /* Strange positioning on the right side */
 }
@@ -113,5 +125,4 @@ select {
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  margin: 10px 0;
 }
