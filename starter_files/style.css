@@ -12,3 +12,106 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+body {
+  background-color: #dddddd;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+body > div {
+  background-color: #ffffff;
+  border: 2px solid #ffd24a;
+  border-radius: 2px;
+  margin: 10px 100px;
+}
+h2, h3, h4 {
+  color: #1fabe5;
+}
+a {
+  color: #1fabe5;
+}
+a:hover {
+  color: #046c97;
+}
+#site_header {
+  background-color: #ff8523;
+  padding: 20px;
+}
+#logo {
+  margin-bottom: 20px;
+}
+nav.main_navigation {
+}
+nav.main_navigation a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+#page_content {
+  padding: 10px;
+}
+#page_content section {
+  border-bottom: 4px solid #eeeeee;
+}
+#page_content ul {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 0 20px;
+}
+table, td {
+  border: 1px solid #1fabe5;
+}
+thead, thead td {
+  border: 1px solid #046c97;
+  background-color: #1fabe5;
+  color: white;
+}
+td {
+  padding: 10px;
+}
+table img {
+  width: 100px;
+}
+
+/* Input form at the bottom of the page */
+form {
+  background-color: lightgray;
+  border-radius: 4px;
+  padding: 10px;
+}
+div.name {
+  background-color: #ff8523;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+div.name input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 25%;
+  border: 1px solid #ffd24a;
+}
+select {
+}
+#bio {
+  border: 1px solid #1fabe5;
+  padding: 10px;
+  display: block;
+  width: 96%; /* Strange positioning on the right side */
+}
+#submit_button {
+  padding: 12px;
+  background-color: #1fabe5;
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0;
+}
