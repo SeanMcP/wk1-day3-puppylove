@@ -22,7 +22,7 @@ body > div {
   background-color: #ffffff;
   border: 2px solid #ffd24a;
   border-radius: 2px;
-  margin: 10px 100px;
+  margin: 10px 100px 40px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 h2, h3, h4 {
@@ -85,7 +85,7 @@ td {
   padding: 10px;
 }
 table img {
-  width: 100px;
+  width: 75px;
 }
 
 /* Input form at the bottom of the page */
@@ -94,12 +94,15 @@ form {
   border-radius: 4px;
   padding: 20px;
 }
+form label {
+  font-weight: bold;
+}
 div.name {
   background-color: #ff8523;
   border-radius: 4px;
   color: white;
   font-weight: bold;
-  padding: 10px;
+  padding: 15px;
   margin: 0 0 20px;
 }
 div.name input {
